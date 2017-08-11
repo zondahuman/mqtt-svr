@@ -26,7 +26,7 @@ import org.eclipse.paho.client.mqttv3.persist.MemoryPersistence;
  */
 public class Server {
 
-    public static final String HOST = "tcp://localhost:61613";
+    public static final String HOST = "tcp://172.16.2.132:61613";
     public static final String TOPIC = "toclient/124";
     public static final String TOPIC125 = "toclient/125";
     private static final String clientid = "server";
